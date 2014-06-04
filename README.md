@@ -1,4 +1,4 @@
-Javascript - Test-Driven Development Workshop
+Javascript - Test-Driven Development
 =====
 
 This code is used in the Javascript TDD workshop run in Steria Norway.
@@ -10,7 +10,9 @@ First, we will set up Karma (http://karma-runner.github.io/0.12/index.html) and 
 ```shell
 npm install -g karma-cli
 npm install karma --save-dev
+npm install mocha --save-dev
 npm install karma-mocha karma-chrome-launcher --save-dev
+npm install
 ```
 
 You'd now usually have to create a `karma.conf.js` file (http://karma-runner.github.io/0.12/intro/configuration.html), but this is already done for this project. You should now be ready to TDD!
