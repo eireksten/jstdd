@@ -1,0 +1,5 @@
+var factorizer = {
+	factorize: function () {
+
+	}
+};

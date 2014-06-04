@@ -1,0 +1,21 @@
+body {
+	background-color: #f0f0f0;
+	text-align: center;
+	padding: 30px;
+}
+
+.container {
+	margin: 64px auto;
+    padding: 5px;
+    width: 95%;
+    max-width: 780px;
+    min-height: 240px;
+    text-align: center;
+    background-color: #ffffff;
+    box-shadow: 5px 5px 3px #aaaaaa;
+}
+
+.reverser {
+	margin: 64px auto;
+}
+

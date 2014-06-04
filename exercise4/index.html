@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Universe of the 1337 c0d3r</title>
+
+		<link rel="stylesheet" href="style.css" />
+
+		<script type="text/javascript" src="lib/jquery.min.js"></script>
+		<script type="text/javascript" src="lib/handlebars.min.js"></script>
+
+		<script type="text/javascript" src="src/templates.js"></script>
+		<script type="text/javascript" src="src/reverse.js"></script>
+
+		<script type="text/javascript">
+			
+			$(function () {
+				$('.container').each(function () {
+					var rev = reverser.create();
+					this.appendChild(rev.el);
+				});
+			});
+
+		</script>
+
+	</head>
+	<body>
+		<h1>The Ultimate Reversal App!</h1>
+		<div class="container"></div>
+	</body>
+</html>
