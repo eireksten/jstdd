@@ -5,7 +5,7 @@ This code is used in the Javascript TDD workshop run in Steria Norway.
 
 ## Exercise 1 - Setting up the environment
 
-First, we will set up the project with Karma (http://karma-runner.github.io/0.12/index.html) and Mocha (http://visionmedia.github.io/mocha/) on our project. Chai.js (http://chaijs.com/) is already included as part of the project. Run the following commands in a shell (ie. Git Bash).
+First, we will set up the project with Karma (http://karma-runner.github.io/0.12/index.html) and Mocha (http://mochajs.org/) on our project. Chai.js (http://chaijs.com/) is already included as part of the project. Run the following commands in a shell (ie. Git Bash).
 
 ```shell
 git clone https://github.com/eireksten/jstdd.git
